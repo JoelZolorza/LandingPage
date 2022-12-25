@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Readex+Pro:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Frontend/static/style/style.css">
     <title>Landig Page | DEV Joel Zolorza</title>
 </head>
 <body>
@@ -13,13 +17,13 @@
             <p>Creamos el mejor sitio Web para ti</p>
             <a href="#contacto">Contactame</a>
         </div>
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
     </header>
    
-   <section class="wave contenedor website">
+   <section class="wave-contenedor website">
         <img src="/Frontend/img/undraw_web_development_0l6v.svg" alt="Web development,encode,developing,programming,js, css, html">
         <div class="contenedor-textos-main">
-            <h2 class="title left">Titulo de la seccion</h2>
+            <h2 class="titulo left">Titulo de la seccion</h2>
             <p class="parrafo"> Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             <a href="" class="cta">Leer mas</a>
         </div>
@@ -35,7 +39,7 @@
 
     <section class="cards contenedor">
         <h2 class="titulo">Our service</h2>
-        <div class="content cards">
+        <div class="content-cards">
             <article class="card">
                 <i class="fa-regular fa-clone"></i>
                 <h3>title Card</h3>
@@ -61,20 +65,53 @@
 
 
     <section class="galeria">
-        <div class="contenedor">
+       
+          <div class="contenedor">
             <h2 class="titulo">Our Word</h2>
-            <article>
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">
-                <img src="img/" alt="">   
+            <article class="galeria-cont">
+                <img src="/Frontend/img/uno.jpg" alt="">
+                <img src="/Frontend/img/dos.jpg" alt="">
+                <img src="/Frontend/img/tres.jpg" alt="">
+                <img src="/Frontend/img/cuatro.jpg" alt="">
+                <img src="/Frontend/img/cinco.jpg" alt="">
+                <img src="/Frontend/img/seis.png" alt="">
+                
             </article>
-        </div>
+          </div>
+       
     </section>
+
+
+    <section class="info-last">
+        <div class="contenedor last-section">
+            <h2 class="titulo left">Title of section</h2>
+            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam, sint neque facilis minima doloremque laborum vero nesciunt quas necessitatibus eius delectus. Explicabo minus accusamus doloremque iste sed dolor voluptas.</p>
+            <a href="" class="cta">learn more</a>
+            <img src="/Frontend/img/Service.svg" alt="">
+        </div>
+       
+    <div class="svg-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+    </section>
+
+    <footer id="contacto">
+        <div class="contenedor">
+            <h2>Contact us</h2>
+            <form action="" class="form">
+                <input class="input"  type="text" name="" id="" placeholder="Nombre">
+                <input class="input"  type="email" name="" id="" placeholder="Email">
+                <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input class="input" type="submit" value="enviar">
+            </form>
+        </div>
+    </footer>
+
+
+
+
+
     <script src="https://kit.fontawesome.com/e34652706d.js" crossorigin="anonymous"></script>
 </body>
-</html>
+    </html>
+
+
+
